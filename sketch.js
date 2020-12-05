@@ -1,7 +1,6 @@
 var car,wall;
 var speed,weight;
 
-
 function setup() {
   createCanvas(1600,400);
 
@@ -32,5 +31,6 @@ function draw() {
       car.shapeColor= color(0,255,0);
     }
   }
+  console.log(deformation);
   drawSprites();
 }
